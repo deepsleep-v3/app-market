@@ -6,6 +6,7 @@
     <title>App Super Market! </title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="deepsleep-v3.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -19,7 +20,8 @@
               secondary: '#FF7D00',
               dark: '#1D2129',
               light: '#F2F3F5',
-              muted: '#86909C'
+              muted: '#86909C',
+              greenyellow: '#57bcbe',
             },
             fontFamily: {
               inter: ['Inter', 'system-ui', 'sans-serif'],
@@ -44,8 +46,12 @@
         transform: translateY(-5px);
         box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
       }
+      .btn-yellowgreen {
+        @apply bg-[rgb(rgb(87, 188, 190))] text-white hover:bg-yellow-600 focus:ring-yellow-400 shadow-btn transform hover:scale-105;
+      }
     }
   </style>
+
 </head>
 <body class="font-inter bg-gray-50 text-dark">
   <!-- 导航栏 -->
@@ -122,6 +128,7 @@
               <div class="carousel-caption d-none d-md-block bg-dark/50 rounded-lg p-4">
                 <h5 class="text-white text-xl font-bold">Minecraft腐竹专区</h5>
                 <p class="text-white">各种服务端，Forge、Fabric、Spigot、Mohist....</p>
+                <button class="btn-yellowgreen">go~</button>
               </div>
             </div>
             </div>
@@ -175,10 +182,10 @@
               </div>
             </div>
             
-            <p class="text-muted text-sm mb-4 line-clamp-2">专业的照片编辑工具，提供丰富的滤镜和编辑功能，让你的照片更加出色。</p>
+            <p class="text-muted text-sm mb-4 line-clamp-2">打字软件.</p>
             
             <div class="flex justify-between items-center">
-              <span class="text-xs bg-gray-100 text-muted px-2 py-1 rounded-full">图像处理</span>
+              <span class="text-xs bg-gray-100 text-muted px-2 py-1 rounded-full">打字练习</span>
               <button class="bg-primary hover:bg-primary/90 text-white rounded-full px-4 py-1.5 text-sm font-medium transition-colors" onclick="">
                 获取
               </button>
