@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-I'm <Your name>: 
-I want to Upload Application "<Your Application Name>"
-Description: "<Description>"
-Download URL: "<Download URL>"
+I'm {{YOUR NAME}}
+I want to Upload Application {{YOUR APPLICATION NAME}}
+Description: {{DESCRIPTION}}
+Download URL: {{DOWNLOAD URL}}
